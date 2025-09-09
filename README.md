@@ -217,14 +217,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🎉 Acknowledgments
-
-**From a simple 1st-year project to a professional application!**
-
-This transformation showcases the journey of learning and growth in software development. The original console-based converter has evolved into a modern, real-time application that could be used professionally.
-
-**Great job on the continuous improvement and learning! 🚀**
-
 ## 🛠 Build & Distribution (Windows .exe)
 
 If you want a standalone Windows executable (.exe) so users can run the app without installing Python, use PyInstaller to bundle the app.
@@ -269,3 +261,4 @@ Build-time requirements (for creating the standalone executable):
 ```text
 pyinstaller==6.15.0
 ```
+
