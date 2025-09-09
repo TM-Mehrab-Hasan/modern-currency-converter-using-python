@@ -142,8 +142,8 @@ Currency Converter/
 
 ### Method 1: Direct Run
 ```bash
-git clone <repository-url>
-cd "Currency Converter"
+git clone https://github.com/TM-Mehrab-Hasan/modern-currency-converter-using-python.git
+cd "modern-currency-converter-using-python"
 pip install requests
 python Compact_Modern_Converter.py
 ```
@@ -261,4 +261,5 @@ Build-time requirements (for creating the standalone executable):
 ```text
 pyinstaller==6.15.0
 ```
+
 
