@@ -2,10 +2,12 @@
 
 A professional-grade currency conversion application that has evolved from a simple 1st-year Python project into a modern, real-time currency converter with comprehensive global coverage.
 
-![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
-![GUI](https://img.shields.io/badge/GUI-Tkinter-green.svg)
-![API](https://img.shields.io/badge/API-Real--time-orange.svg)
-![Currencies](https://img.shields.io/badge/Currencies-157+-red.svg)
+[![Python Version](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://python.org)
+[![GUI Framework](https://img.shields.io/badge/GUI-Tkinter-green.svg)](https://docs.python.org/3/library/tkinter.html)
+[![API Integration](https://img.shields.io/badge/API-Real--time-orange.svg)](https://exchangerate-api.com)
+[![Currencies Supported](https://img.shields.io/badge/Currencies-157+-red.svg)](#supported-currencies)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained-Yes-brightgreen.svg)](https://github.com/yourusername/modern-currency-converter)
 
 ## 🚀 Quick Start
 
@@ -224,3 +226,4 @@ This project is open source and available under the [MIT License](LICENSE).
 This transformation showcases the journey of learning and growth in software development. The original console-based converter has evolved into a modern, real-time application that could be used professionally.
 
 **Great job on the continuous improvement and learning! 🚀**
+
