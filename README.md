@@ -216,14 +216,3 @@ Feel free to fork this project and enhance it further! Some ideas:
 ## 📜 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 🎉 Acknowledgments
-
-**From a simple 1st-year project to a professional application!**
-
-This transformation showcases the journey of learning and growth in software development. The original console-based converter has evolved into a modern, real-time application that could be used professionally.
-
-**Great job on the continuous improvement and learning! 🚀**
-
