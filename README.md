@@ -2,12 +2,10 @@
 
 A professional-grade currency conversion application that has evolved from a simple 1st-year Python project into a modern, real-time currency converter with comprehensive global coverage.
 
-[![Python Version](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://python.org)
-[![GUI Framework](https://img.shields.io/badge/GUI-Tkinter-green.svg)](https://docs.python.org/3/library/tkinter.html)
-[![API Integration](https://img.shields.io/badge/API-Real--time-orange.svg)](https://exchangerate-api.com)
-[![Currencies Supported](https://img.shields.io/badge/Currencies-157+-red.svg)](#supported-currencies)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained-Yes-brightgreen.svg)](https://github.com/yourusername/modern-currency-converter)
+![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
+![GUI](https://img.shields.io/badge/GUI-Tkinter-green.svg)
+![API](https://img.shields.io/badge/API-Real--time-orange.svg)
+![Currencies](https://img.shields.io/badge/Currencies-157+-red.svg)
 
 ## 🚀 Quick Start
 
@@ -216,3 +214,58 @@ Feel free to fork this project and enhance it further! Some ideas:
 ## 📜 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🎉 Acknowledgments
+
+**From a simple 1st-year project to a professional application!**
+
+This transformation showcases the journey of learning and growth in software development. The original console-based converter has evolved into a modern, real-time application that could be used professionally.
+
+**Great job on the continuous improvement and learning! 🚀**
+
+## 🛠 Build & Distribution (Windows .exe)
+
+If you want a standalone Windows executable (.exe) so users can run the app without installing Python, use PyInstaller to bundle the app.
+
+1) Install the build tool (one-time on your build machine):
+
+```powershell
+pip install -r build-requirements.txt
+```
+
+2) Build a single-file, windowed executable (run from project root):
+
+```powershell
+pyinstaller --onefile --noconsole --add-data "currencyData.txt;." --name "ModernCurrencyConverter" Compact_Modern_Converter.py
+```
+
+- On Windows the `--add-data` separator is `;` (source;dest). On macOS/Linux use `:`.
+- The generated executable will be in `dist/ModernCurrencyConverter.exe`.
+
+3) Quick distribution checklist
+
+- Test the EXE on a clean Windows machine (no Python installed).
+- If the app fails to start on another machine, ensure the Visual C++ Redistributable (matching your Python build) is installed.
+- If you need an installer (setup wizard), I can provide an Inno Setup script to bundle the EXE, README and license.
+
+4) Troubleshooting & Notes
+
+- PyInstaller may produce harmless DLL warnings during build; check the `build/ModernCurrencyConverter/warn-ModernCurrencyConverter.txt` file if the EXE doesn't run.
+- If you want to reduce size, consider UPX (optional) or exclude unused packages.
+- For cross-platform builds, build on each target OS (Windows EXE from Windows, macOS app from macOS).
+
+## 📦 Requirements (runtime & build)
+
+Runtime requirements (for running from source):
+
+```text
+requests>=2.25.1
+```
+
+Build-time requirements (for creating the standalone executable):
+
+```text
+pyinstaller==6.15.0
+```
